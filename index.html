@@ -1,92 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header id="header">
-  <div class="container">
-    <h1>Siddh Panchal</h1>
-    <p>Web Developer & Designer</p>
-  </div>
-</header>
-<section id="about">
-  <div class="container">
-    <img src="SSPanchal1.JPG" alt="Siddh Panchal" class="profile-img">
-    <p>
-      I am a Student from Parul Univsersity. I consider myself a responsible and orderly person. I am looking
-      forward for my first work experience through the internship. Seeking a position as an Intern in your
-      company to utilize my skills, knowledge and technical problem skills.
-    </p>
-  </div>
-</section>
-<section id="skills">
-  <div class="container">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Figma</li>
-      <li>PowerBi</li>
-      <li>Spreadsheet</li>
-      <li>Data Analytics</li>
-      <li>Data Visualization</li>
-    </ul>
-  </div>
-</section>
-<section id="projects">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="project-item">
-      <h3>Project 1</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-        dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-        inventore tempore minus nemo, iste ullam illo laboriosam maiores
-        repudiandae quos!
-      </p>
-      <img src="assets/images/project1.jpg" alt="project1" class="project-img">
+<div class="calculator">
+    <div class="display-screen">
+        <input type="text" id="display" readonly>
     </div>
-    <div class="project-item">
-      <h3>Project 2</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-        dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-        inventore tempore minus nemo, iste ullam illo laboriosam maiores
-        repudiandae quos!
-      </p>
-      <img src="assets/images/project2.jpg" alt="project2" class="project-img">
+    <div class="button-grid">
+        <button id="clear">C</button>
+        <button id="divide">/</button>
+        <button id="multiply">*</button>
+        <button id="subtract">-</button>
+        <button id="add">+</button>
+        <button id="equals">=</button>
+        <button id="num-7">7</button>
+        <button id="num-8">8</button>
+        <button id="num-9">9</button>
+        <button id="num-4">4</button>
+        <button id="num-5">5</button>
+        <button id="num-6">6</button>
+        <button id="num-1">1</button>
+        <button id="num-2">2</button>
+        <button id="num-3">3</button>
+        <button id="num-0">0</button>
+        <button id="decimal">.</button>
     </div>
-  </div>
-</section>
-<section id="resume">
-  <div class="container">
-    <h2> My Resume</h2>
-    <p>
-      <a href="Siddh%20Panchal%20Resume.pdf" download>Download Resume</a>
-    </p>
-  </div>
-</section>
-<section id="contact">
-  <div class="container">
-    <h2>Contact</h2>
-    <p>
-      Email: panchalsiddh503@gmail.com
-    </p>
-    <p>
-      Phone: +91 9974781701
-    </p>
-  </div>
-</section>
-<footer id="footer">
-  <div class="container">
-    <p>
-      &copy; 2024 Siddh Panchal
-    </p>
-  </div>
-</footer>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
